@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us – Service Buddy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ✅ Common CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Service Buddy</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="book.html">Book Service</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="services">
+  <h2>Contact Us</h2>
+
+  <div class="service-grid">
+
+    <!-- Contact Info -->
+    <div class="card" style="text-align:left">
+      <h3>Get in Touch</h3>
+      <p><strong>📍 Address:</strong> Anand, Gujarat</p>
+      <p><strong>📞 Phone:</strong> +91 9XXXXXXXXX</p>
+      <p><strong>📧 Email:</strong> support@servicebuddy.com</p>
+      <p><strong>⏰ Timing:</strong> 9 AM – 8 PM</p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="card">
+      <h3>Send Message</h3>
+      <form onsubmit="sendMessage(event)" class="contact-form">
+  <input type="text" placeholder="Your Name" required>
+  <input type="email" placeholder="Your Email" required>
+  <input type="tel" placeholder="Mobile Number" required>
+  <textarea placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Service Buddy | Home Services Website
+</footer>
+
+<!-- ✅ Common JS -->
+<script src="js/script.js"></script>
+</body>
+</html>
